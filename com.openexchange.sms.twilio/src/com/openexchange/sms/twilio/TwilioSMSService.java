@@ -50,9 +50,6 @@
 package com.openexchange.sms.twilio;
 
 import java.util.Locale;
-
-import javax.net.ssl.HostnameVerifier;
-
 import com.openexchange.config.ConfigurationService;
 import com.openexchange.exception.OXException;
 import com.openexchange.server.ServiceLookup;
@@ -129,9 +126,9 @@ public class TwilioSMSService implements SMSServiceSPI {
 	        			new PhoneNumber(recipient), 
 	        			MESSAGE_SERVICE_SID, 
 	        			message);
-	            Message res = msgCreator.create();
-	            
-	            logger.info("SMS submitted to Twilio. SID: " + res.getSid());
+	        	
+	        	Message res = msgCreator.create();
+	        	logger.info("SMS submitted to Twilio. SID: " + res.getSid());
 	            
 	        } catch (ApiException e) {
 	        	logger.error(String.format("Failed to send SMS. Error code: %1$s. Error message: %2$s.", 
