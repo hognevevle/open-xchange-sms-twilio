@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Open-Xchange Twilio sms bundle
+Bundle-SymbolicName: com.openexchange.sms.twilio
+Bundle-Version: 7.8.3
+Bundle-Vendor: Hogne Vevle
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: lib/twilio-7.3.0-jar-with-dependencies.jar,
+ .
+Import-Package: com.openexchange.config,
+ com.openexchange.exception,
+ com.openexchange.i18n,
+ com.openexchange.osgi,
+ com.openexchange.server,
+ com.openexchange.sms,
+ org.json,
+ org.osgi.framework,
+ org.slf4j,
+ org.xml.sax,
+ org.xml.sax.helpers,
+ javax.net, 
+ javax.net.ssl,
+ javax.naming
+Export-Package: com.twilio,
+ com.openexchange.sms.twilio
+Bundle-Activator: com.openexchange.sms.twilio.osgi.TwilioSMSActivator

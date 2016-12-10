@@ -1,0 +1,6 @@
+open-xchange-sms-twilio (7.8.3-5) stable; urgency=medium
+
+  * Initial release
+
+ -- Hogne Vevle <hv@webhuset.no>  Sat, 10 Dec 2016 16:42:34 +0100
+
