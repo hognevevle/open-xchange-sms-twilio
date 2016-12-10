@@ -32,7 +32,7 @@ This package installs the OSGi bundles needed to send SMS messages via Twilio.
 Authors:
 --------
     Open-Xchange
-    Webhuset AS
+    Hogne Vevle <hv@webhuset.no>
 
 %prep
 %setup -q
