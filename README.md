@@ -1,6 +1,6 @@
 # open-xchange-sms-twilio
 
-This package provides an OSGi bundle for Open Xchange App Suite for sending SMS messages via Twilio. 
+This package provides an OSGi bundle for [Open Xchange App Suite](https://www.open-xchange.com/).  for sending SMS messages via [Twilio](https://www.twilio.com/). 
 
 ### com.openexchange.sms.twilio
 
