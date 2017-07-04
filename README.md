@@ -9,3 +9,7 @@ Contains the source project for the backend OSGi bundle.
 ### open-xchange-sms-twilio
 
 Provides packaging information for building the packages using the OX build system. 
+
+# Deprecation
+
+As Open Xchange now provides and maintains this component for its licensed customers through [their own software channels](https://software.open-xchange.com/components/plugins/stable/), this package is no longer maintained.
